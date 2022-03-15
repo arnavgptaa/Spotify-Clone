@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&family=Varela+Round&display=swap');
+body{
+    background-color: #011B10;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0px 10px;
+    
+}
+
+.logo img{
+    width: 44px;
+    padding: 5px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;  /*Used to change the cursor to a pointer whrn hovered over the icons*/
+    padding: 20px;
+}
+
+.container{
+    min-height: 67vh;
+    background-color: black;
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 69%;
+    border-radius: 15px;    /*Used to give curved corners to central box*/
+    padding: 20px;
+    background-image: url('Kishore Covers/kishore.png');
+}
+
+#progressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    width: 160%;
+    color: white;
+    border-radius: 34px;
+    padding: 2%;
+    justify-content: space-between; 
+    margin-bottom: 13px;
+
+
+
+}
+
+.songItem img{
+    border-radius: 34px;
+
+}
+
+.songItem span{
+    padding: 12px;
+}
+
+.songItem i{
+    padding: 0 12px;
+}
+
+.time i{
+    cursor: pointer;
+    padding: 2px;
+}
+
+.gif{
+    position: absolute;
+    left: 8.5vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: lightblue;
+    }
+  }
